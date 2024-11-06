@@ -1,0 +1,6 @@
+&i2c2 {
+    lps22: lps22hb@5c {
+        compatible = "st,lps22hb-press";
+        reg = <0x5c>;
+    };
+};
